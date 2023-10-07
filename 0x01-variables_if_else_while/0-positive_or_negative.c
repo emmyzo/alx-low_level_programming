@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /**
- * main - Prints a random number decides whether it is positive,negative,orzero.
- *
- * Return: Always 0.
+ * main - this is the main function
+ * Return: always 0
  */
 int main(void)
 	{
