@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - check the code.
@@ -8,7 +9,7 @@
 
 int main(void)
 {
-	int i, ('z') = 0;
+	int i, 'z' = 0;
 
 	while (i < 1024)
 	{
@@ -18,6 +19,6 @@ int main(void)
 	}
 	i++;
 	}
-	printf("\n");
+	printf("%d\n");
 	return (0);
 }
