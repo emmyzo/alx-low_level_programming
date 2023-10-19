@@ -2,30 +2,30 @@
 
 /**
  * _strcat - main function
- * @dest: first parameter
- * @src: second parameter
+ * @src: Concatenation parameter
+ * @dest: Concatenation parameter
  * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int a, b;
+int k, r;
 
-a = 0;
-b = 0;
+k = 0;
+r = 0;
 
-while (dest[a] != '\0')
+while (dest[k] != '\0')
 {
-	a++;
+	k++;
 }
 
-while (src[b] != '\0')
+while (src[r] != '\0')
 {
-	dest[b] = src[b];
-	a++;
-	b++;
+	dest[k] = src[r];
+	k++;
+	r++;
 }
-dest[a] = '\0';
+dest[k] = '\0';
 return (dest);
 }
 
